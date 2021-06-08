@@ -152,6 +152,7 @@ button {
   font-size: 0.85em;
   font-weight: 700;
   text-decoration: uppercase;
+  
 }
 
 .article__read-more a:hover,
@@ -172,6 +173,19 @@ button {
 
 .footer {
   margin-top: 2em;
+}
+
+.Wrap { 
+  display:flex;
+  justify-content: space-between;
+}
+
+.Wrap .article {
+  width:48%;
+}
+
+.Wrap .article:hover{
+  background-color: lightgrey;
 }
 
 .footer p {
