@@ -37,6 +37,32 @@ button {
 
 /* Buttons */
 
+.button-primary {
+  background: #ce5f31;
+  color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Cuando el ratón pase por encima */
+.button-primary:hover,
+.button-primary:focus {
+  background: #ef7f52;
+}
+
+.button-secondary {
+  background: white;
+  color: #ce5f31;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+
+
+
 /* INSERT BUTTON STYLES HERE */
 
 /* Alert */
@@ -67,7 +93,7 @@ button {
 /* Jumbotron */
 
 .jumbotron {
-  background-image: url("../images/header.jpg");
+  background-image: url("../images/header-bike.jpg");
   border-radius: 0;
   color: #fff;
 }
@@ -99,12 +125,22 @@ button {
 
 .article {
   margin-bottom: 2em;
+  display: flex;
+  border: 1px solid lightgray;
+  padding: 10px;
+  border-radius: 5px;
 }
+
+.article__body {
+  margin-left: 15px;
+}
+
 
 .article__image {
   object-fit: contain;
   width: 5rem;
 }
+
 
 .article__title {
   margin-bottom: 0.5em;
