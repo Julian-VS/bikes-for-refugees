@@ -98,6 +98,9 @@ button {
   color: #fff;
 }
 
+
+
+
 /* Headings */
 
 .heading-underline {
@@ -200,4 +203,19 @@ button {
   .navbar-brand > img {
     max-height: 80px;
   }
+}
+
+@media (max-width: 320px)
+{
+  .jumbotron h2
+  {
+  font-size: 20px;
+  }
+
+  .jumbotron button
+  {
+    padding: 1px;
+    background-color: blue;
+  }
+
 }
